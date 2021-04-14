@@ -1,4 +1,4 @@
-# Instalation on Mac
+# Installation on Mac
 
 1- Enable SSH
 https://uca.edu/it/knowledgebase-legacy/enabling-ssh-on-a-mac-computer/
@@ -7,12 +7,15 @@ https://uca.edu/it/knowledgebase-legacy/enabling-ssh-on-a-mac-computer/
 https://formulae.brew.sh/cask/caffeine
 
 3- Run in terminal
+```bash
 curl https://raw.githubusercontent.com/ecascardo/tunel/master/install-mac.sh | sh
-
-# Instalation on Linux
+```
+# Installation on Linux
 
 1- Run in terminal
+```bash
 curl https://raw.githubusercontent.com/ecascardo/tunel/master/install-linux.sh | sudo sh
+```
 
 2- In Firefox configure proxy SOCKS Host:localhost Port:12345
 
