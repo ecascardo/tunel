@@ -6,9 +6,9 @@ https://uca.edu/it/knowledgebase-legacy/enabling-ssh-on-a-mac-computer/
 2- Install Caffeine 
 https://formulae.brew.sh/cask/caffeine
 
-3- Run in terminal
+3- Replace LINUX_IP for your real linux IP and run in terminal
 ```bash
-curl https://raw.githubusercontent.com/ecascardo/tunel/master/install-mac.sh | sh
+curl https://raw.githubusercontent.com/ecascardo/tunel/master/install-mac.sh | sh -s LINUX_IP
 ```
 # Installation on Linux
 
