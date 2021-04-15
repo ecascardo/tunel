@@ -14,10 +14,15 @@ curl https://raw.githubusercontent.com/ecascardo/tunel/master/install-mac.sh | s
 
 1- Run in terminal
 ```bash
-curl https://raw.githubusercontent.com/ecascardo/tunel/master/install-linux.sh | sudo sh
+curl https://raw.githubusercontent.com/ecascardo/tunel/master/install-linux.sh | sh
 ```
 
-2- In Firefox configure proxy SOCKS Host:localhost Port:12345
+2- Replace HOST_TUNEL_PROXY and TUNEL_PORT and run in terminal for each host
+```bash
+curl https://raw.githubusercontent.com/ecascardo/tunel/master/add-proxy.sh | sh -s HOST_TO_PROXY TUNEL_PORT
+```
+
+3- In Firefox configure proxy SOCKS Host:localhost Port:12345
 
 # Run
 
