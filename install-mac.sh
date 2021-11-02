@@ -21,4 +21,5 @@ rm -rf ~/vpn.workflow
 mkdir ~/vpn.workflow
 mkdir ~/vpn.workflow/Contents
 
-curl https://raw.githubusercontent.com/ecascardo/tunel/master/vpn.workflow/Contents/ /vpn.workflow/Contents
+curl -o ~/vpn.workflow/Contents/document.wflow https://raw.githubusercontent.com/ecascardo/tunel/master/vpn.workflow/Contents/document.wflow 
+curl -o ~/vpn.workflow/Contents/Info.plist https://raw.githubusercontent.com/ecascardo/tunel/master/vpn.workflow/Contents/Info.plist
