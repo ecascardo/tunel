@@ -3,10 +3,7 @@ brew install caffeine
 brew install squidman
 
 rm ~/tunel.sh 
-rm -rf vpn.workflow
-
 cat > ~/tunel.sh << ENDOFFILE
-
 echo "-----------Disconecting Tunel---------------"
 killall ssh
 
@@ -17,6 +14,11 @@ ssh -o ExitOnForwardFailure=yes -f -N -R 5900:localhost:5900   $1
 
 echo "-----------Conecting VPN--------------------"
 automator -v vpn.workflow
-
 ENDOFFILE
 chmod +x ~/tunel.sh
+
+rm -rf ~/vpn.workflow
+mkdir ~/vpn.workflow
+mkdir ~/vpn.workflow/Contents
+
+curl https://raw.githubusercontent.com/ecascardo/tunel/master/vpn.workflow/Contents/ /vpn.workflow/Contents
