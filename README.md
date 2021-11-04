@@ -8,6 +8,13 @@ https://uca.edu/it/knowledgebase-legacy/enabling-ssh-on-a-mac-computer/
 ```bash
 curl https://raw.githubusercontent.com/ecascardo/tunel/master/install-mac.sh | sh -s LINUX_IP
 ```
+3- Configure SquidMan
+
+![Preferences](./squidman-config.png)
+
+3- Configure Caffeine
+
+![Preferences](./caffeine-config.png)
 
 # Installation on Linux
 
